@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>		
+		<meta charset ="utf-8">
+		<title>Google</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="icon" href="images/google.png">
+		<link rel="stylesheet" href="google.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="google.js"></script>
+	</head>
+	<body onload="setValue()">
+		<div class="content">
+			<div class="logo">
+				<img src="images/title.png" width="150" height="55" alt="Google">
+			</div>
+			<div>
+			<!--text area icon-->
+				<input class="textarea2" id='search' type="text" value="">
+					<p id='results'></p>
+			</div>
+			<!--apps, notification, account-->
+			<div id="service2">
+				<ul>
+				<!--apps-->
+			 		<li>
+						<a title="Google apps">
+							<i class="fa fa-th" aria-hidden="true"></i></a>
+					</li>
+					<!--notifications-->
+					<li>
+						<a title="Google notifications">
+							<i class="fa fa-bell" aria-hidden="true"></i></a>
+					</li>
+					<!--account-->
+					<li>
+						<a title="Google Account">
+							<i class="fa fa-user-circle" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</div>
+			<script> 
+				searchValue()
+			</script>
+		</div>
+	</body>
+</html>
